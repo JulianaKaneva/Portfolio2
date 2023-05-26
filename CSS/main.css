@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.gl{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.img{
+	width: 300px;
+	height: 400px;
+	margin: 50px;
+}
+
+.img:nth-child(1){
+	background: url(../img/f1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.img:nth-child(2){
+	background: url(../img/f2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.img:nth-child(3){
+	background: url(../img/f3.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+p{
+	margin: 30px 100px;
+	color: red;
+	text-align: center;
+	font-size: 20px;
+}
